@@ -1,0 +1,15 @@
+footer.footer
+    .container.footer-container
+        .footer-text 
+            p.description.footer-description © 2016 Merkury All Right Reserved
+        .footer-links
+            ul
+                each name in ['Pricing', 'Blog', 'Contact']
+                    li
+                        a(href='@')= name
+        .footer-links-social 
+            ul 
+                each img in ['facebook', 'twitter', 'google']
+                    li
+                        a(href='@')
+                            img.social(src=require(`./../images/${img}.svg`), alt=`${img}`)

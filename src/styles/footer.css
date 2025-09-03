@@ -1,0 +1,39 @@
+.footer {
+    background-color: #0d1935;
+    height: 140px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    height: 100%;
+    align-items: center;
+}
+
+.footer a {
+    color: var(--gray);
+}
+
+.footer-description {
+    font-size: 18px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+}
+
+.footer-links-social ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social {
+    height: 18px;
+}

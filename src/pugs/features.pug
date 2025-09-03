@@ -1,0 +1,15 @@
+- const features = [
+-   {img: 'feature-first.svg', title: 'Manage Your Workflow'},
+-   {img: 'feature-second.svg', title: 'Analytics & Insights'},
+-   {img: 'feature-third.svg', title: 'Organize Your Deadlines'}
+- ]
+
+section.features#Features
+  .container
+    .features-grid
+      each feature in features
+        .feature-item
+          img.feature-image(src=require(`./../images/${feature.img}`), alt=feature.title)
+          p.feature-title= feature.title
+          p.description.feature-description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          button.button-see-more See more

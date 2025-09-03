@@ -1,0 +1,82 @@
+.pricing {
+    display: grid;
+}
+
+.pricing-title {
+    color: var(--black);
+    text-align: center;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    margin-top: 100px;
+}
+
+.price-item {
+    display: grid;
+    justify-items: center;
+    height: 422px;
+    width: 360px;
+    text-align: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.price-item:hover {
+    transform: scale(1.2);
+}
+
+.pricing-item-title {
+    font-size: 24px;
+    color: var(--black);
+    font-weight: 400;
+}
+
+.price-symbol {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.price-div {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.price-div p {
+    margin: 0;
+    padding: 0;
+}
+
+.price {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.pricing-features {
+    display: inline-block;
+}
+
+.pricing-checked {
+    max-width: 24px;
+    margin-right: 10px;
+}
+
+.pricing-checked-text {
+    color: var(--gray);
+}
+
+.pricing-footer {
+    margin: 75px 0;
+    text-align: center;
+}
+
+.button-join-now {
+    margin-top: 45px;
+    width: 204px;
+    background-color: #5584ff;
+    border-color: #5584ff;
+    color: var(--white);
+}

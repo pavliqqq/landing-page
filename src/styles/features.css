@@ -1,0 +1,36 @@
+.features {
+    display: grid;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 258px;
+}
+
+.feature-item {
+    place-items: center;
+    text-align: center;
+}
+
+.feature-image {
+    height: 80px;
+}
+
+.feature-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.feature-description {
+    width: 374px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.button-see-more {
+    width: 250px;
+    background: none;
+    border-color: #dadee7;
+    font-weight: 700;
+}

@@ -1,0 +1,33 @@
+- const prices = [
+-   {title: 'BRONZE PLAN', price: '19', checked: 2},
+-   {title: 'SILVER PLAN', price: '49', checked: 3},
+-   {title: 'GOLD PLAN', price: '99', checked: 4},
+- ]
+
+section.pricing#Pricing
+  .container
+    p.title.pricing-title Check our pricing!
+      .pricing-grid
+        each price in prices
+          .price-item
+            p.pricing-item-title= price.title
+            .price-div
+              p.price-symbol $
+              p.price= price.price 
+              p.description.price-description /mon
+            .pricing-features 
+              - for (var i = 0; i < 4; i++)
+                if i < price.checked
+                  .checked-div
+                    img.pricing-checked(src=require('./../images/checked.svg'), alt='checked')
+                    p.pricing-checked-text Lorem ipsum dolor sit am
+                else
+                  .checked-div
+                    img.pricing-checked(src=require('./../images/unchecked.svg'), alt='checked')
+                    p.pricing-checked-text Lorem ipsum dolor sit am
+      .pricing-footer
+        .pricing-text 
+          p.description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          p.description magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        .pricing-button 
+          button.button-join-now Join now!

@@ -1,0 +1,29 @@
+.all-you-need {
+    position: relative;
+    display:grid;
+    overflow: hidden;
+    height: 970px;
+}
+
+.all-you-need-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 100%;
+    place-items: center;
+}
+
+.all-you-need-text-description {
+    width: 590px;
+}
+
+.gadgets {
+    position: absolute;
+    right: -15%;
+    transform: translateY(15%);
+    width: clamp(400px, 65vw, 1310px);
+}
+
+.all-you-need-title {
+    color: #0e1a35;
+}

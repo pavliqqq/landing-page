@@ -1,0 +1,12 @@
+.powerfull-psd-template {
+    display: grid;
+    background-color: #f6f7fa;
+}
+
+.powerfull-psd-template-text {
+    text-align: center;
+}
+
+.powerfull-pst-template-title {
+    color: var(--black);
+}

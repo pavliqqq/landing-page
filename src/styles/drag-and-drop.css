@@ -1,0 +1,30 @@
+.drag-and-drop{
+    display: grid;
+    height: 750px;
+    background-image: url(./../images/graph-small.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.drag-and-drop-container {
+    width: 1550px;
+    margin: 0 auto;
+}
+
+.drag-and-drop-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 175px;
+    height: 100%;
+    align-items: center;
+}
+
+.drag-and-drop-text-description {
+    width: 510px;
+}
+
+.drag-and-drop-text-arrows {
+    display: flex;
+    gap: 19px;
+}

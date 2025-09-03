@@ -1,0 +1,17 @@
+.workflow-grid
+    .in-progress
+        .workflow-title
+            p.workflow-title-text In Progress 
+            p.workflow-title-count (3)
+            img.arrow(src=require('./../images/arrow.svg'), alt='arrow')
+        .workflow-body
+            img.in-progress-image(src=require('./../images/in-progress.png'), alt='in-progress')
+            img.task-image(src=require('./../images/task.png'), alt='task')
+    .completed
+        .workflow-title
+            p.workflow-title-text Completed
+            p.workflow-title-count (2)
+        .workflow-body 
+            img.completed-image(src=require('./../images/done.png'), alt='completed')
+            .drop-here-div 
+                p.description Drop here

@@ -1,0 +1,12 @@
+section.drag-and-drop
+    .drag-and-drop-container
+        .drag-and-drop-grid
+            include ./workflow.pug
+            .drag-and-drop-text
+                p.title Drag & Drop
+                .drag-and-drop-text-description
+                    p.description#desc-top
+                    p.description#desc-bot
+                .drag-and-drop-text-arrows
+                    img#arrow-left(src=require('./../images/arrow-left.svg'), alt='arrows-left')
+                    img#arrow-right(src=require('./../images/arrow-right.svg'), alt='arrows-right')

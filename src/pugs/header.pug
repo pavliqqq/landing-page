@@ -1,0 +1,18 @@
+header.header
+  .header-container
+    .header-top
+        img.logo(src=require('./../images/logo.svg'), alt = 'Merkury')
+        nav.nav
+          ul
+            each name in ['Features', 'Pricing', 'Blog', 'Contact']
+              li
+                a(href=`#${name}`)= name
+          button.button-login Login
+    .header-middle
+      .header-middle-text
+        p.title Grow Your business with Merkury
+        p.description.header-description Your partner in crime!
+      .header-middle-button
+        button.button-start Get started
+    .header-footer
+      img.dashboard(src=require('./../images/dashboard.png'), alt = 'dashboard')

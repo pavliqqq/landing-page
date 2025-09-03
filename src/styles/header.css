@@ -1,0 +1,74 @@
+.header {
+    position: relative;
+    display: grid;
+    background-image: url(./../images/graph-large.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-container {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 233px;
+    height: 65px;
+}
+
+.header a {
+    color: var(--white);
+}
+
+.nav {
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+.button-login {
+    width: 130px;
+    border-color: #233972;
+    color: #2a4486;
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    margin: 50px 0px 100px 0px;
+}
+
+.header-middle {
+    display: grid;
+    text-align: center;
+}
+
+.header-description {
+    font-size: 36px;
+    line-height: 14px;
+}
+
+.button-start {
+    margin-top: 90px;
+    width: 204px;
+    background-color: #5584ff;
+    border-color: #5584ff;
+    color: var(--white);
+}
+
+.header-footer {
+    display: grid;
+    place-items: center;
+}
+
+.dashboard {
+    position: relative;
+    top: 128px;
+}

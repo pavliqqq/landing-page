@@ -1,0 +1,13 @@
+.checked-div{
+    display: flex;
+}
+
+.checked{
+    max-width: 28px;
+    margin-right: 20px;
+}
+
+.checked-text{
+    color: #5284ff;
+    font-weight: 400;
+}

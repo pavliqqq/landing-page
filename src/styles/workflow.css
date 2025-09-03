@@ -1,0 +1,41 @@
+.workflow-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.workflow-title {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto 1fr;
+    gap: 30px;
+}
+
+.workflow-title-text {
+    color: var(--white);
+    font-weight: 500;
+    line-height: 12px;
+    font-size: 31px;
+}
+
+.workflow-title-count {
+    color: var(--gray);
+    font-weight: 500;
+    line-height: 12px;
+    font-size: 31px;
+}
+
+.drop-here-div {
+    display: grid;
+    place-content: center;
+    width: 392px;
+    height: 100px;
+}
+
+.task-image{ 
+    margin-left: 25px;
+}
+
+.arrow {
+    height: 14px;
+    transform: rotate(270deg);
+}
