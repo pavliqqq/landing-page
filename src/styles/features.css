@@ -4,11 +4,19 @@
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 258px;
+    grid-template-columns: repeat(auto-fit, minmax(490px, 1fr));
+    margin-top: 228px;
+}
+
+@media (max-width: 1630px) {
+    .features-grid > :last-child  {
+      grid-column: 1 / -1; 
+      justify-items: center;
+    }
 }
 
 .feature-item {
+    margin-top: 30px;
     place-items: center;
     text-align: center;
 }
@@ -18,14 +26,13 @@
 }
 
 .feature-title {
-    font-size: 24px;
+    font-size: clamp(18px, 3vw, 24px);
     font-weight: 700;
 }
 
 .feature-description {
-    width: 374px;
+    max-width: 374px;
     line-height: 30px;
-    font-size: 18px;
 }
 
 .button-see-more {
