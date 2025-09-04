@@ -9,10 +9,19 @@
 
 .pricing-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 70px;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: clamp(30px, 5vw, 70px);
     margin-top: 100px;
+    place-items: center;
 }
+
+@media (max-width: 1560px) {
+    .pricing-grid > :last-child  {
+      grid-column: 1 / -1; 
+      justify-items: center;
+    }
+}
+
 
 .price-item {
     display: grid;
