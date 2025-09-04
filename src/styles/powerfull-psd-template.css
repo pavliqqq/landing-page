@@ -7,6 +7,15 @@
     text-align: center;
 }
 
-.powerfull-pst-template-title {
+.powerfull-psd-template-title {
     color: var(--black);
+}
+
+.powerfull-psd-template-image-div {
+    display: grid;
+    place-items: center;
+}
+
+.powerfull-psd-template-image {
+    width: clamp(400px, 90vw, 1190px);
 }
