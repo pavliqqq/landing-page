@@ -1,6 +1,6 @@
 .drag-and-drop{
     display: grid;
-    height: 750px;
+    padding: 160px 0px 130px 0px;
     background-image: url(./../images/graph-small.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,20 +8,28 @@
 }
 
 .drag-and-drop-container {
-    width: 1550px;
+    max-width: 1550px;
     margin: 0 auto;
 }
 
 .drag-and-drop-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 175px;
+    gap: clamp(30px, 7vw ,175px);
     height: 100%;
     align-items: center;
 }
 
+@media (max-width: 1400px) {
+    .drag-and-drop-grid  {
+      grid-template-columns: 1fr; 
+      justify-items: center;      
+      gap: 20px;
+    }
+}
+
 .drag-and-drop-text-description {
-    width: 510px;
+    max-width: 510px;
 }
 
 .drag-and-drop-text-arrows {
