@@ -1,6 +1,6 @@
 .workflow-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
 }
 
 .workflow-title {
@@ -8,6 +8,10 @@
     place-items: center;
     grid-template-columns: auto auto 1fr;
     gap: 30px;
+}
+
+.workflow-body {
+    display: grid;
 }
 
 .workflow-title-text {
