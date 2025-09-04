@@ -8,6 +8,7 @@
 }
 
 .header-container {
+    width: 90%;
     max-width: 1700px;
     margin: 0 auto;
 }
@@ -51,7 +52,7 @@
 }
 
 .header-description {
-    font-size: 36px;
+    font-size: clamp(20px, 2vw, 36px);
     line-height: 14px;
 }
 
@@ -70,5 +71,6 @@
 
 .dashboard {
     position: relative;
-    top: 128px;
+    top: clamp(50px, 14vw, 145px);
+    width: clamp(400px, 90vw, 940px);
 }
