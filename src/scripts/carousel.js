@@ -4,11 +4,11 @@ const texts = [
         "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequat."
     ],
     [
-        "Second top text, Second top text, Second top text, Second top text",
+        "Second top text, Second top text, Second top text, Second top text, Second top text, Second top text, Second top text, Second top text",
         "Second bottom text, Second bottom text, Second bottom text, Second bottom text"
     ],
     [
-        "Third top text, Third top text, Third top text, Third top text",
+        "Third top text, Third top text, Third top text, Third top text, Third top text, Third top text, Third top text, Third top text",
         "Third bottom text, Third bottom text, Third bottom text, Third bottom text"
     ]
 ]
